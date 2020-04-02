@@ -1,4 +1,3 @@
-<script type="text/javascript" src="av/j/j.js"></script>
 <html>
 
 <head>
