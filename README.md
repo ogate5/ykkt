@@ -1,3 +1,13 @@
+var gulp = require('gulp');
+var myth = require('gulp-myth');
+
+gulp.task('default', function () {
+    return gulp.src('src/app.css')
+        .pipe(myth())
+        .pipe(gulp.dest('dist'));
+});
+
+
 # H1
 ## H2
 ### H3
